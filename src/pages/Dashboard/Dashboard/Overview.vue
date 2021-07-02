@@ -7,9 +7,9 @@
         </div>
         <h2>Trabalho de Criptografia</h2>
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-6">
             <h4 class="title">Selecione o algoritmo de Cifragem/Decifragem</h4>
-            <div class="row">
+            
               <div class="col-md-6">
                 <el-select
                   class="select-info"
@@ -27,11 +27,11 @@
                   </el-option>
                 </el-select>
               </div>
-              <h4 style="margin-left: 15px" class="title">
+              <h4 style="margin-left: 1px" class="title">
                 Selecione se deseja Cifragem/Decifragem
               </h4>
               <div style="margin-left: 1px" class="row">
-                <div class="col-md-12">
+                <div class="col-md-6">
                   <el-select
                     class="select-info"
                     size="large"
@@ -49,7 +49,7 @@
                   </el-select>
                 </div>
               </div>
-            </div>
+            
           </div>
         </div>
         <fg-input label="Texto Claro">
