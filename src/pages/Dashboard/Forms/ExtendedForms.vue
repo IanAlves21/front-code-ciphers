@@ -74,9 +74,8 @@
           <input type="file" id="file" ref="file" @change="onFileChange" />
         </div>
         <div>
-          <Button style="margin-top: 15px" @click="sendAlgoritmo"
-            >Enviar</Button
-          >
+          <button type="button" class="btn btn-default btn-outline" @click="sendAlgoritmo"
+            >Enviar</button>
         </div>
       </div>
     </card>

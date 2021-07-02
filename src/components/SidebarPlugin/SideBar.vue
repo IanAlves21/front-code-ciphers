@@ -1,12 +1,13 @@
 <template>
-  <div class="sidebar"
+  <div>
+  <!-- <div class="sidebar"
        :style="sidebarStyle"
        :data-color="backgroundColor"
        :data-image="backgroundImage"
-       :data-active-color="activeColor">
+       :data-active-color="activeColor"> -->
 
-    <div class="sidebar-wrapper" ref="sidebarScrollArea">
-      <div class="logo">
+    <!-- <div class="sidebar-wrapper" ref="sidebarScrollArea"> -->
+      <!-- <div class="logo">
         <a class="logo-mini"
            href="https://www.creative-tim.com/product/vue-light-bootstrap-dashboard-pro">
           <div class="logo-img">
@@ -16,11 +17,11 @@
         <a href="" class="simple-text logo-normal">
           {{ title }}
         </a>
-      </div>
-      <slot>
+      </div> -->
+      <!-- <slot>
 
-      </slot>
-      <ul class="nav">
+      </slot> -->
+      <!-- <ul class="nav">
         <slot name="links">
           <sidebar-item v-for="(link, index) in sidebarLinks"
                         :key="link.name + index"
@@ -31,10 +32,10 @@
                           :link="subLink">
             </sidebar-item>
           </sidebar-item>
-        </slot>
+        </slot> -->
 
-      </ul>
-    </div>
+      <!-- </ul> -->
+    <!-- </div> -->
   </div>
 </template>
 <script>

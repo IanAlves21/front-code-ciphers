@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper" :class="{'nav-open': $sidebar.showSidebar}">
     <notifications></notifications>
-    <side-bar>
+    <!-- <side-bar>
       <user-menu></user-menu>
       <mobile-menu></mobile-menu>
       <template slot-scope="props" slot="links">
@@ -41,16 +41,16 @@
           <sidebar-item :link="{name: 'Lock Screen Page', path: '/lock'}"></sidebar-item>
         </sidebar-item>
       </template>
-    </side-bar>
-    <div class="main-panel">
-      <top-navbar></top-navbar>
+    </side-bar> -->
+    <!-- <div class="main-panel"> -->
+      <!-- <top-navbar></top-navbar> -->
 
       <dashboard-content @click.native="toggleSidebar">
 
       </dashboard-content>
 
       <content-footer></content-footer>
-    </div>
+    <!-- </div> -->
   </div>
 </template>
 <script>
